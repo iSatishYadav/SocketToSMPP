@@ -1,0 +1,16 @@
+{
+  "name": "smspro-smpp",
+  "version": "1.0.0",
+  "description": "smspro-smpp is the SMPP backend of most of the SMSPro APIs.",
+  "main": "bootstrap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Satish Yadav",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "smpp": "^0.3.1"
+  }
+}
